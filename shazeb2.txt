@@ -1,0 +1,24 @@
+ Q} what is the diffence between git pull and git fetch 
+ans} git pull is generally used to pull or bring only the code from the central  branch to the localrepo and git fetch command is used to bring the entire thing from the central repo and stores it to the local repo 
+
+GIT stash-
+ if you want to revert whatever changes you have made in the workin directory you can use git stash 
+ !Any changes added to the stage or to the local repository or to the central repositry cannot be reverted using git stash
+
+
+GIT ADD-
+ to add all the files which changes have been made 
+{git add.}
+{git add -A}
+
+
+Git merge-If you want to merge a branch to another then you have to be in that branch in which you have to merge with another ex if you have to merge branch 1 itno 2 then first you have to be in branch 2 and apply te command git merge[brench to merge]
+
+
+GIT LOG- it show the commit history
+
+Git REBASE {branch_from_where_you_need_changes}
+
+Q}Diffrence between merge and rebase  
+In merge all the the commits onthe feature branch will be combined as a singe commit in th master branch 
+in rebase all th ecommits will be rebased as the same number of commits will be added to the master branch
