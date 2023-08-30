@@ -1,3 +1,6 @@
-hii,I'm Afshan.afshan-using git conflict.
+
+hii,I'm Afshan.
+I am a student.
+
 
 
