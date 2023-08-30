@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-hi This is Mohammad Shazeb 
-=======
-hey!!! 
->>>>>>> 125d7a6c2a163c361c2f3840ee7f5c278556186b
+hey!!! This is Mohammad Shazeb. This file is deleted by Saif.
+ 
+
