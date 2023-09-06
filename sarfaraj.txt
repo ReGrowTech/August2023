@@ -1,1 +1,6 @@
-happy teachers day and thanks to support us 
+create database dem0;
+use demo;
+create table student (student_id int primary key, std_name varchar(34),std_roll int,std_age int, std_adress varchar(67));
+insert into student(23,'gui',12,8,'sakchi'), (93,'ff',34,09);
+update student set std_adress = 'bistupur' where student_id=1;
+alter table student add student_gender varchar(78);
