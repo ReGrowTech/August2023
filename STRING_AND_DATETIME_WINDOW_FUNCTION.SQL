@@ -15,6 +15,7 @@ select name, LEN(name) from pets;
 select * from pets WHERE pet_id % 2 <> 0;
 select * from pets where pet_id % 2 = 0;
 select * from pets;
+
    
 ------------DATETIME---------------------------------------
 
@@ -52,4 +53,17 @@ from pets;
 
  SELECT name, age,kind,DENSE_RANK()        
 OVER( PARTITION BY kind ORDER BY age DESC) AS rank
-from pets; 								   
+from pets;
+-----------------------------04-09-2023---------------------------------------------
+SELECT TOP 5(name)
+From pets
+Order By(age) DESC;
+
+SELECT name From pets where name LIKE '__o%';
+
+SELECT MIN(age),kind From pets GROUP BY kind;
+
+CREATE VIEW vw 
+AS SELECT name,age,kind From pets WHERE age>10;
+
+SELECT * FROM vw;

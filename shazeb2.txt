@@ -12,13 +12,15 @@ GIT ADD-
 {git add -A}
 
 
-Git merge-If you want to merge a branch to another then you have to be in that branch in which you have to merge with another ex if you have to merge branch 1 itno 2 then first you have to be in branch 2 and apply te command git merge[brench to merge]
+GIT MERGE 
+-If you want to merge a branch to another then you have to be in that branch in which you have to merge with another ex if you have to merge branch 1 itno 2 then first you have to be in branch 2 and apply te command git merge[brench to merge]
 
 
 GIT LOG- it show the commit history
 
 Git REBASE {branch_from_where_you_need_changes}
 
-Q}Diffrence between merge and rebase  
+ Q}Diffrence between merge and rebase  
 In merge all the the commits onthe feature branch will be combined as a singe commit in th master branch 
 in rebase all th ecommits will be rebased as the same number of commits will be added to the master branch
+ hey this is shazeb
