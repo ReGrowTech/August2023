@@ -22,4 +22,20 @@ JVM stands for java virtual machine it is responsible for converting byte code i
 	✓	Create a project in the eclipse 
 	✓	Create a package inside src
 
-Escape sequence—*If we ever want to skip a sequence we use backslash ,before the escape character
+    
+•Type casting in java that allows  one data conversion to 
+
+Type casting can be achived in two ways 
+	1.	Implicit type casting- A smaller data type auto matically gets converted into a larger data type.It is also called widening 
+	2.	Explicit type casting is conversion of lagrer data type to a smaller data type.we need to externally provide the data type of the smaller data type to the larger data type 
+
+Eg-: { 
+     int i1= 49;
+        Char ch = (char)i1 
+        System.out.println(ch);
+}
+
+
+•In prefix unary operaton first the value increases or decreases then the orepation is performed.
+
+•In postfix first the operation is performed then the value increases or decreases.
