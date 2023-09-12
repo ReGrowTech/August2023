@@ -1,1 +1,42 @@
-my new file 
+Is java a puerly object oriented programming language?
+Ans~ No,java is nat a puerly object oriented programming language 
+
+•The source get comverted into by code using java compiler 
+•Byte code is the extension of (dot) class
+•java is platform independent language 
+
+Q} why is java called platform independent?
+Ans} The source code can be converted to byte code in machine one then this byte code can be run on any system that has jvm in it. 
+
+Q}what is jbk 
+Jdk stands for( java development kit) it has JRE in it and development tools like javac ,java awt it is responsible for helping us to write and execute our programm. 
+
+Q} 
+  JRE stands for java runtime environment IT HAS jvm and set of libraries files it creates the environment for executing our program 
+
+Q}
+JVM stands for java virtual machine it is responsible for converting byte code into machine level code and producing the output 
+
+	✓	Create a workspace
+	✓	Open the workspace in eclipse
+	✓	Create a project in the eclipse 
+	✓	Create a package inside src
+
+Escape sequence—*If we ever want to skip a sequence we use backslash ,before the escape character
+    
+•Type casting in java that allows  one data conversion to 
+
+Type casting can be achived in two ways 
+	1.	Implicit type casting- A smaller data type auto matically gets converted into a larger data type.It is also called widening 
+	2.	Explicit type casting is conversion of lagrer data type to a smaller data type.we need to externally provide the data type of the smaller data type to the larger data type 
+
+Eg-: { 
+     int i1= 49;
+        Char ch = (char)i1 
+        System.out.println(ch);
+}
+
+
+•In prefix unary operaton first the value increases or decreases then the orepation is performed.
+
+•In postfix first the operation is performed then the value increases or decreases.
