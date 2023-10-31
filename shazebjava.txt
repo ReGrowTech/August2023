@@ -1,41 +1,86 @@
 Is java a puerly object oriented programming language?
-Ans~ No,java is nat a puerly object oriented programming language 
 
-•The source get comverted into by code using java compiler 
+Ans~ No,java is nat a puerly object oriented programming language
+
+•The source get comverted into by code using java compiler
 •Byte code is the extension of (dot) class
-•java is platform independent language 
+•java is platform independent language
 
 Q} why is java called platform independent?
-Ans} The source code can be converted to byte code in machine one then this byte code can be run on any system that has jvm in it. 
+Ans} The source code can be converted to byte code in machine one then this byte code can be run on any system that has jvm in it.
 
-Q}what is jbk 
-Jdk stands for( java development kit) it has JRE in it and development tools like javac ,java awt it is responsible for helping us to write and execute our programm. 
-
-Q} 
-  JRE stands for java runtime environment IT HAS jvm and set of libraries files it creates the environment for executing our program 
+Q}what is JDK
+Jdk stands for( java development kit) it has JRE in it and development tools like javac ,java awt it is responsible for helping us to write and execute our programm.
 
 Q}
-JVM stands for java virtual machine it is responsible for converting byte code into machine level code and producing the output 
+JRE stands for java runtime environment IT HAS jvm and set of libraries files it creates the environment for executing our program
 
-	✓	Create a workspace
-	✓	Open the workspace in eclipse
-	✓	Create a project in the eclipse 
-	✓	Create a package inside src
+Q}
+JVM stands for java virtual machine it is responsible for converting byte code into machine level code and producing the output
 
-    
-•Type casting in java that allows  one data conversion to 
+Create a workspace
+Open the workspace in eclipse
+Create a project in the eclipse
+Create a package inside src
 
-Type casting can be achived in two ways 
-	1.	Implicit type casting- A smaller data type auto matically gets converted into a larger data type.It is also called widening 
-	2.	Explicit type casting is conversion of lagrer data type to a smaller data type.we need to externally provide the data type of the smaller data type to the larger data type 
+Escape sequence—*If we ever want to skip a sequence we use backslash ,before the escape character
+•Type casting in java that allows one data conversion to
 
-Eg-: { 
-     int i1= 49;
-        Char ch = (char)i1 
-        System.out.println(ch);
+Type casting can be achived in two ways
+Implicit type casting- A smaller data type auto matically gets converted into a larger data type.It is also called widening
+Explicit type casting is conversion of lagrer data type to a smaller data type.we need to externally provide the data type of the smaller data type to the larger data type
+
+Eg-: {
+int i1= 49;
+Char ch = (char)i1
+System.out.println(ch);
 }
 
 
 •In prefix unary operaton first the value increases or decreases then the orepation is performed.
 
 •In postfix first the operation is performed then the value increases or decreases.
+“=“ is an assingment operator which which assigns the value to the variable whwereas “== “is a relational operator that helps us to check wheather two values are equal or not
+
+Q)WAP to find the greatest of two numbers using ternery operator ?
+Ans)
+
+
+
+Syntax} (relational\)? True part :false part
+
+
+
+
+
+
+
+unary operator : ++, - -
+Arethematic operator : +,-,*,\,%
+Relation operator: >,>=,<=,==,!=
+Logical operator: &&,||
+
+
+WAp to find the minimum of two numbers using ternary operators.?
+Ans}
+Int (a < b) a: b;
+26/10/2023
+
+Q)Explain new keywords in java.?
+Ans)the new keyword in java instantiate a class in java by allocating desired memory for an associated new object it returns the reference to that memory (the new keyword helps us to create an object.
+
+Q)How to create an object of a class?
+Ans)
+
+
+Q)Why is string immutable?
+Ans)In string constant pool any string object that is created doesn’t get destroyed even if no reference variable is pointing at it or if the reference has changed from that object to another object
+
+Q)What is a SCP
+And)A string constant pool is a special memory area where the jvm creates the string object it cannot have duplicate string objects
+
+Q)what is the diffrence between== and .= in the case of string
+Ans)(==)checks wheather the reference address of the two object ls a same or not
+Whereas (.=)compairs the value of the strings
+
+
